@@ -1,0 +1,48 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.main {
+    height: 100vh;
+    width: 100%;
+
+}
+
+.one {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.two {
+    height: 80%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(243, 243, 243);
+
+}
+
+.two span {
+    font-size: 32px;
+}
+
+.two input {
+    width: 35%;
+}
+
+.two button {
+    cursor: pointer;
+    border-radius: 10px;
+    border: none;
+    width: 40%;
+    height: 6%;
+    background-color: rgb(220, 220, 220);
+  
+}
